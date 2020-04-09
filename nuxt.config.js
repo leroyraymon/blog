@@ -1,6 +1,12 @@
 
 export default {
   mode: 'spa',
+
+  router: {
+    base: 'https://raw.githubusercontent.com/fujingtai/blog/master/docs/',
+    mode: 'hash'
+  },
+
   /*
   ** Headers of the page
   */
