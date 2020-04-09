@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
 
   router: {
-    base: 'https://raw.githubusercontent.com/fujingtai/blog/master/docs/',
+    base: 'https://fujingtai.github.io/blog/',
     mode: 'hash'
   },
 
@@ -50,13 +50,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/proxy',
   ],
-  proxy: {
-    'https://raw.githubusercontent.com/fujingtai/blog/master/docs/': {
-      target: 'https://github.com/fujingtai/blog/tree/master/docs', // 目标接口域名
-    }
-  },
   /*
   ** Build configuration
   */
