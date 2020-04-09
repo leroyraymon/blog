@@ -1,0 +1,75 @@
+/* ::v-deep .ant-input-affix-wrapper .ant-input:not(:first-child) {
+  padding-left: 40px;
+} */
+
+.page-enter-active, .page-leave-active{
+  transition: opacity 0.5s;
+}
+.page-enter, .page-leave-active{
+  opacity: 0;
+}
+
+.ant-layout{
+  background-color: transparent;
+}
+
+.ant-calendar-picker-container{
+  z-index: 1008;
+}
+
+.ant-input-affix-wrapper-lg .ant-input.ant-input-lg{
+  font-size: 14px;
+  padding-left: 40px !important;
+}
+.ant-input-affix-wrapper-lg .ant-input-prefix .anticon{
+  font-size: 18px;
+}
+
+.ant-btn-sm, .ant-select-sm .ant-select-selection{
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.ant-spin-nested-loading > div > .ant-spin .ant-spin-dot{
+  margin: 20px 0;
+}
+
+.ant-tooltip .ant-tooltip-inner{
+  background-color: #9ccc65;
+}
+.ant-tooltip .ant-tooltip-arrow::before{
+  background-color: #9ccc65;
+}
+
+.ant-modal-content .ant-modal-header{
+  padding: 12px 20px;
+}
+.ant-modal-content .ant-modal-close .ant-modal-close-x{
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  margin: 10px 18px;
+  border-radius: 50%;
+  border: solid 1px #a0a0a0;
+}
+.ant-modal-content .ant-modal-close .ant-modal-close-x:hover{
+  color: #fff;
+  border: #fff;
+  background-color: #ff7470;
+}
+
+
+.ant-popover-content .ant-popover-inner{
+  max-width: 600px;
+}
+.ant-timeline .ant-timeline-item{
+  padding: 0;
+}
+
+.ant-divider .ant-divider-inner-text{
+  font-weight: bold;
+}
+
+.ant-spin-nested-loading{
+  position: initial;
+}
