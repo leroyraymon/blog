@@ -66,5 +66,7 @@ export default {
     repo: 'blog',
     todoRepo: 'todo',
     githubToken: 'f1fee2cbad02067d901166d917c5e95f0c22ec8e',
+    githubClientId: '08014041b70c0e2a14eb',
+    githubClientSecret: 'e8c8c8173eadd1f4874bf073a156208829571109'
   }
 }
