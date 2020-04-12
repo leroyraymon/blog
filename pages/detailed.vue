@@ -6,7 +6,7 @@
         <span class="ispan">博客文章内容</span>
       </div>
       <div class="ley-form-default margin-top margin-bottom">
-        <a-skeleton :loading="blogLoading" style="width: 360px; float: right;" active avatar :paragraph="{rows: 1}">
+        <a-skeleton :loading="blogLoading" style="float: right;" active avatar :paragraph="{rows: 1}">
           <a-list-item-meta>
             <template slot="description">
               <span>发布时间：{{blogData.created_at | formatDate('yyyy-MM-dd')}}</span><span class="margin-lfrg">评论：{{blogData.comments? `已有 ${blogData.comments} 条评论`: '还没有人评论'}}</span>
