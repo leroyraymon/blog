@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
 
   router: {
-    base: 'https://fujingtai.github.io/',
+    base: 'https://fujingtai.github.io/blog/',
     mode: 'hash'
   },
 
