@@ -31,8 +31,8 @@
       </div>
 
     </a-layout-content>
-    <a-layout-sider width="300">
-      <div class="ley-well bg-verdant text-white">
+    <a-layout-sider width="300" breakpoint="lg" collapsedWidth="0" :trigger="null">
+      <div class="ley-well bg-verdant text-white" style="width:280px; float:right;">
         <a-icon type="read" />
         <span class="ispan">博客文章分类</span>
         <div class="ley-well well-sm bg-gray margin-top">
@@ -157,7 +157,6 @@ export default {
 
 .ant-layout-sider {
   background: transparent;
-  padding-left: 20px;
 }
 .bolgLabel {
   width: 90px;

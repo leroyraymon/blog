@@ -1,6 +1,6 @@
 <template>
   <div class="ley-nav">
-    <div class="navHeader">
+    <div class="navHeader container">
       <nuxt-link to="/" class="logo"></nuxt-link>
       <ul class="listLink">
         <li>
@@ -19,13 +19,6 @@
 <script></script>
 
 <style scoped>
-.ley-nav {
-  height: 68px;
-}
-.navHeader {
-  width: 1180px;
-  margin: 0 auto;
-}
 .navHeader .headerRight {
   float: right;
   line-height: 68px;
@@ -47,7 +40,7 @@
 }
 .navHeader .logo {
   float: left;
-  width: 175px;
+  width: 138px;
   height: 68px;
   background: url('../../assets/img/logo.png') no-repeat center;
   background-size: 140px 38px;

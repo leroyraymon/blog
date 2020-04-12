@@ -1,7 +1,7 @@
 import { Octokit } from '@octokit/rest'
 import { throttling } from '@octokit/plugin-throttling'
 
-const token = ['31c146c2f693cc93472b' + '11c934bae72da7f2de4f', '5df2fa371a5a5cc4871b' + '5c0449f51fb0f3ee2911']
+const token = process.env.githubToken
 
 const Github = Octokit.plugin(throttling)
 export const github = new Github({

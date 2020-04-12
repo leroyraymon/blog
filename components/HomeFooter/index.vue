@@ -14,8 +14,6 @@ export default {};
 .footer {
   line-height: 60px;
   color: #fff;
-  width: 1180px;
-  margin: 0 auto;
   text-align: center;
 }
 .ant-divider {

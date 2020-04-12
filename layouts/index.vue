@@ -5,7 +5,7 @@
         <home-head></home-head>
       </a-layout-header>
       <a-layout class="content">
-        <a-layout-content>
+        <a-layout-content class="container">
           <nuxt></nuxt>
           <a-back-top />
         </a-layout-content>
@@ -35,18 +35,14 @@ export default {
 <style scoped>
 .content {
   background: #a8c2a4 url('../assets/img/pagebg.jpg') no-repeat center;
+  padding: 90px 0 0 0;
+  min-height: 90em;
 }
 .ant-layout-header {
   position: fixed;
   z-index: 1009;
   padding: 0;
   width: 100%;
-}
-.ant-layout-content {
-  width: 1180px;
-  margin: 0 auto;
-  padding: 90px 0 0 0;
-  min-height: 90em;
 }
 .ant-back-top {
   bottom: 120px;
