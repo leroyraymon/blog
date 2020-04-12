@@ -65,6 +65,6 @@ export default {
     owner: 'fujingtai',
     repo: 'blog',
     todoRepo: 'todo',
-    apiToken: '52e8072f9ca2b3a8959e5e593ed2e5983e682d9c'
+    apiToken: ['31c146c2f693cc93472b' + '11c934bae72da7f2de4f', '5df2fa371a5a5cc4871b' + '5c0449f51fb0f3ee2911']
   }
 }

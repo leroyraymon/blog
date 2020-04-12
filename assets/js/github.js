@@ -1,11 +1,12 @@
 import { Octokit } from '@octokit/rest'
 import { throttling } from '@octokit/plugin-throttling'
 
+const token = process.env.apiToken
 const Github = Octokit.plugin(throttling)
 export const github = new Github({
   withCredentials: false,
   responseType: 'json',
-  auth: process.env.apiToken,
+  ...(token ? { auth: token[Math.round(Math.random() * token.length)] } : {}),
   userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/82.0.4083.0 Safari/537.36',
   throttle: {
     onRateLimit: (retryAfter, options) => {
