@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
 
   router: {
-    base: 'https://fujingtai.github.io/blog/',
+    base: 'https://fujingtai.github.io/',
     mode: 'hash'
   },
 
@@ -64,7 +64,8 @@ export default {
   env: {
     owner: 'fujingtai',
     repo: 'blog',
-    todoRepo: 'todo',
-    apiToken: ['31c146c2f693cc93472b' + '11c934bae72da7f2de4f', '5df2fa371a5a5cc4871b' + '5c0449f51fb0f3ee2911']
+    githubToken: '28f8aba1444d142fa3521b73793fb6b97891420c',
+    githubClientId: '08014041b70c0e2a14eb',
+    githubClientSecret: 'e8c8c8173eadd1f4874bf073a156208829571109'
   }
 }

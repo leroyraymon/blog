@@ -104,6 +104,8 @@ export default {
         this.pagination.total = this.getTotal(headers, page, per_page);
       } else {
         let { data: posts, headers } = await github.issues.listForRepo({
+          client_id: process.env.githubClientId,
+          client_secret: process.env.githubClientSecret,
           owner: process.env.owner,
           repo: process.env.repo,
           creator: process.env.owner,
