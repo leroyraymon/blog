@@ -86,7 +86,6 @@ export default {
 }
 ::v-deep .markdown-body code {
   border-radius: 3px;
-  padding: 2px 5px;
   background-color: #f6f8fa;
 }
 ::v-deep .markdown-body h3 {
