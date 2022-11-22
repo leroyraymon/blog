@@ -3,7 +3,7 @@ export default {
   mode: 'spa',
 
   router: {
-    base: 'https://fujingtai.github.io/blog/',
+    base: 'https://leroyraymon.github.io/blog/',
     mode: 'hash'
   },
 
@@ -62,7 +62,7 @@ export default {
     }
   },
   env: {
-    owner: 'fujingtai',
+    owner: 'leroyraymon',
     repo: 'blog',
     githubClientId: '08014041b70c0e2a14eb',
     githubClientSecret: 'e8c8c8173eadd1f4874bf073a156208829571109'
