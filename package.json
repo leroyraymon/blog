@@ -15,7 +15,7 @@
     "@octokit/rest": "^17.1.4",
     "ant-design-vue": "^1.5.1",
     "date-fns": "^2.11.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.12.2"
   },
   "devDependencies": {}
 }
